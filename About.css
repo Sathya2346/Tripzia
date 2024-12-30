@@ -1,0 +1,768 @@
+@media screen and (min-width:1020px){
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul>li{
+    list-style-type: none;
+}
+h2{
+    font-family: 'Melodrama';
+    font-weight: 500;
+    line-height: 66px;
+    font-size: 54px;
+}
+h3{
+    font-family: 'Melodrama';
+    font-weight: 400;
+    line-height: 38px;
+    font-size: 28px;
+}
+h4{
+    font-family: 'Melodrama';
+    font-weight: 600;
+    line-height: 30px;
+    font-size: 20px;
+}
+.navbar>a,.Dropdown>a{
+    font-family: 'Melodrama';
+    font-weight: 100;
+    font-style: normal;
+    font-size: 18px;
+}
+.navbar{
+    padding:50px 100px 10px 100px; 
+    display: flex;
+}
+.Dropdown>a{
+    position: relative;
+}
+.Dropdown-content{
+    display: none;
+    background-color: #FEFEFE;
+    position: absolute;
+    margin-left: -70px;
+    padding: 5px;
+    border-radius: 20px;
+    
+}
+.Dropdown:hover .Dropdown-content{
+    display: inline-block;
+    margin-top: 25px;
+    padding:20px;
+    width: 180px;
+}
+li>a{
+    color: #969782;
+}
+li>a:hover{
+    color:#06336C;
+}
+.nav-but{
+    background-color: #06336C;
+    color: white;
+    border: 1px solid #06336C;
+    border-radius: 25px;
+    height: 8vh;
+    width: 130px;
+}
+.Overall{
+    background-image: url('Images/aboutus-bg-scaled.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding-bottom: 20px;
+}
+.Home-Content{
+    text-align: center;
+    margin-top: 20px;
+}
+.Home-Content>h1{
+    font-family: 'melodrama';
+    font-size: 116px;
+    line-height: 126px;
+    font-weight: 600;
+    color: #06336C;
+    text-align: center;
+}
+.Home-Content>div>div>h2{
+    font-family: 'melodrama';
+    font-size: 116px;
+    line-height: 2px;
+    font-weight: 600;
+    color: #06336C;
+    text-align: start;
+    margin-top: 50px;
+    padding: 10px;
+}
+.Home-Content>div>div>span{
+    font-family:'cabin';
+    font-weight: 20;
+    font-size: 18px;
+    line-height: 2px;
+    text-align: end;
+    color: #06336C;
+}
+.take-con1{
+    margin-top: 20px;
+    display: flex;
+}
+.take-con1>img{
+    width: 500px;
+    border-radius: 20px;
+}
+.take-con2{
+    display: flex;
+}
+.take>.take-con1{
+    position: absolute;
+
+}
+.take>.take-con2{
+    position: relative;
+}
+.take-con2>img{
+    margin-top: 300px;
+    margin-left: 300px;
+    border-radius: 20px;
+}
+.take-con2>h4{
+    margin-top: 250px;
+    margin-left: 20px;
+    color: #42425E;
+}
+.take-con2>h4>button{
+    border-radius: 30px;
+    padding: 10px;
+    background-color: #001822;
+    color: white;
+    border: 1px solid #001822;
+    width: 120px;
+}
+.Leading{
+    color: white;
+    margin: 50px;
+    width: 100%;
+    display: flex;
+}
+.Leading1{
+    width: 70%;
+}
+.Leading2{
+    width: 100%;
+    margin: 20px;
+}
+.Leading2-content2{
+    border: 2px solid white;
+    width: 270px;
+    padding: 20px;
+    margin-left: 0px;
+    border-radius: 20px;
+}
+.Leading3{
+    background-color: white;
+    width: 20%;
+    border-radius: 140px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 40px;
+}
+.Leading3-2-1{
+    color: black;
+}
+.Leading3-2-1>h3{
+    border-bottom: 1px solid black;
+    width: 150px;
+    margin-left: 30px;
+}
+.Business{
+    padding: 60px;
+}
+.h-100>img{
+    position: absolute;
+}
+.green{
+    display: flex;
+}
+.green>p{
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 20px;
+}
+.card-title{
+    margin-top: 200px;
+}
+.Business>h2{
+    margin-top: 100px;
+    color: white;
+}
+.Business>button{
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-left: 1000px;
+}
+.foot{
+    color: white;
+    display: flex;
+    margin: 5%;
+    border-bottom: 1px solid #7B9EBB;
+}
+.foot-con1{
+    width: 50%;
+    margin: 2%;
+}
+.foot-con2{
+    width: 50%;
+    margin: 2%;
+}
+.foot-con3{
+    width: 320px;
+}
+.foot-con3>h2{
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 38px;
+}
+dd{
+    font-size:18px;
+    font-weight: 250;
+    line-height: 28px;
+}
+.Footer-Content{
+    color: white;
+    text-align: center;
+}
+}
+
+
+
+/*Mobile*/
+@media screen and (max-width:330px){
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul>li{
+    list-style-type: none;
+}
+h2{
+    font-family: 'Melodrama';
+    font-weight: 500;
+    line-height: 66px;
+    font-size: 54px;
+}
+h3{
+    font-family: 'Melodrama';
+    font-weight: 400;
+    line-height: 38px;
+    font-size: 28px;
+}
+h4{
+    font-family: 'Melodrama';
+    font-weight: 600;
+    line-height: 30px;
+    font-size: 20px;
+}
+.navbar>a,.Dropdown>a{
+    font-family: 'Melodrama';
+    font-weight: 100;
+    font-style: normal;
+    font-size: 18px;
+}
+.navbar{
+    padding:50px 100px 10px 100px; 
+    display: flex;
+    justify-content: center;
+}
+.Dropdown>a{
+    position: relative;
+}
+.Dropdown-content{
+    display: none;
+    background-color: #FEFEFE;
+    position: absolute;
+    margin-left: -70px;
+    padding: 5px;
+    border-radius: 20px;    
+}
+.Dropdown:hover .Dropdown-content{
+    display: inline-block;
+    margin-top: 25px;
+    padding:20px;
+    width: 180px;
+}
+li>a{
+    color: #969782;
+}
+li>a:hover{
+    color:#06336C;
+}
+.nav-but{
+    background-color: #06336C;
+    color: white;
+    border: 1px solid #06336C;
+    border-radius: 25px;
+    height: 8vh;
+    width: 130px;
+}
+.Overall{
+    background-image: url('Images/bg-home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+}
+.Home-Content{
+    text-align: center;
+    margin-top: 20px;
+}
+.Home-Content>h1{
+    font-family: 'melodrama';
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: 600;
+    color: #06336C;
+    text-align: center;
+}
+.Home-Content>div>div>h2{
+    font-family: 'melodrama';
+    font-size: 80px;
+    line-height: 70px;
+    font-weight: 600;
+    color: #06336C;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: -50px;
+}
+.spandiv{
+    margin-top: 10px;
+    width: 300px;
+}
+.Home-Content>div>div>span{
+    font-family:'cabin';
+    font-weight: 20;
+    font-size: 18px;
+    line-height: 2px;
+    text-align: end;
+    color: #06336C;
+    width: 300px;
+}
+.memoryh1{
+    margin: 10px;
+    width: 100px;
+}
+.take-con1{
+    margin-top: 20px;
+    display: block;
+}
+.take-con1>img{
+    margin: 10px;
+    width: 300px;
+    border-radius: 20px;
+}
+.take-con2{
+    display: block;
+}
+.take-con2>img{
+    border-radius: 20px;
+    width: 300px;
+    margin: 10px;
+}
+.take-con2>h4{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: black;
+}
+.take-con2>h4>button{
+    border-radius: 30px;
+    padding: 10px;
+    background-color: #001822;
+    color: white;
+    border: 1px solid #001822;
+    width: 120px;
+}
+.Leading{
+    color: white;
+    margin: 10px;
+    width: 100%;
+    display: block;
+}
+.Leading1{
+    width: 100%;
+}
+.Leading2{
+    width: 100%;
+    margin: 10px;
+}
+.Leading2-content1{
+    width: 300px;
+}
+.Leading2-content2{
+    border: 2px solid white;
+    width: 270px;
+    padding: 20px;
+    margin-left: 0px;
+    border-radius: 20px;
+}
+.Leading3{
+    background-color: white;
+    width: 250px;
+    border-radius: 140px;
+    padding: 15px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.Leading3-2-1{
+    color: black;
+}
+.Leading3-2-1>h3{
+    border-bottom: 1px solid black;
+    width: 150px;
+    margin-left: 30px;
+}
+.Business{
+    padding: 20px;
+}
+.card-title{
+    margin-top: 110px;
+}
+.Business>h2{
+    margin-left: 0px;
+    margin-top: 10px;
+    width: 300px;
+    color: white;
+}
+.Business>button{
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-left: 1000px;
+}
+.h-100>img{
+    position: absolute;
+}
+.green{
+    display: flex;
+}
+.green>p{
+    position: relative;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 20px;
+}
+.foot{
+    color: white;
+    display: block;
+    margin: 2%;
+    border-bottom: 1px solid #7B9EBB;
+    width: 500px;
+}
+.foot-con1{
+    width: 250px;
+    margin: 2%;
+}
+.foot-con2{
+    width: 300px;
+}
+.foot-con3{
+    width: 320px;
+}
+.foot-con3>h2{
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 38px;
+    width: 320px;
+}
+dd{
+    font-size:18px;
+    font-weight: 250;
+    line-height: 28px;
+    width: 320px;
+}
+.Footer-Content{
+    color: white;
+    text-align: center;
+}
+}
+
+
+
+/*Tab*/
+@media screen and (min-width:750px){
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    ul>li{
+        list-style-type: none;
+    }
+    h2{
+        font-family: 'Melodrama';
+        font-weight: 500;
+        line-height: 66px;
+        font-size: 54px;
+    }
+    h3{
+        font-family: 'Melodrama';
+        font-weight: 400;
+        line-height: 38px;
+        font-size: 28px;
+    }
+    h4{
+        font-family: 'Melodrama';
+        font-weight: 600;
+        line-height: 30px;
+        font-size: 20px;
+    }
+    .navbar>a,.Dropdown>a{
+        font-family: 'Melodrama';
+        font-weight: 100;
+        font-style: normal;
+        font-size: 18px;
+    }
+    .navbar{
+        padding:50px 10px 10px 10px; 
+        display: flex;
+    }
+    .Dropdown>a{
+        position: relative;
+    }
+    .Dropdown-content{
+        display: none;
+        background-color: #FEFEFE;
+        position: absolute;
+        margin-left: -70px;
+        padding: 5px;
+        border-radius: 20px;
+        
+    }
+    .Dropdown:hover .Dropdown-content{
+        display: inline-block;
+        margin-top: 25px;
+        padding:20px;
+        width: 180px;
+    }
+    li>a{
+        color: #969782;
+    }
+    li>a:hover{
+        color:#06336C;
+    }
+    .nav-but{
+        background-color: #06336C;
+        color: white;
+        border: 1px solid #06336C;
+        border-radius: 25px;
+        height: 8vh;
+        width: 130px;
+    }
+    .Overall{
+        background-image: url('Images/bg-home.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: auto;
+        padding-bottom: 20px;
+
+    }
+    .Home-Content{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .Home-Content>h1{
+        font-family: 'melodrama';
+        font-size: 116px;
+        line-height: 126px;
+        font-weight: 600;
+        color: #06336C;
+        text-align: center;
+    }
+    .spandiv{
+        margin-top: 10px;
+        width: 300px;
+    }
+    .Home-Content>div>div>h2{
+        font-family: 'melodrama';
+        font-size: 90px;
+        line-height: 2px;
+        font-weight: 600;
+        color: #06336C;
+        text-align: start;
+        margin-top: 50px;
+        width: 500px;
+    }
+    .Home-Content>div>div>span{
+        font-family:'cabin';
+        font-weight: 20;
+        font-size: 18px;
+        line-height: 2px;
+        text-align: end;
+        color: #06336C;
+        margin-left: 10px;
+    }
+    .take-con1{
+        margin-top: 20px;
+        display: flex;
+    }
+    .take-con1>img{
+        width: 350px;
+        border-radius: 20px;
+    }
+    .take-con2{
+        display: flex;
+    }
+    .take>.take-con1{
+        position: absolute;
+    
+    }
+    .take>.take-con2{
+        position: relative;
+    }
+    .take-con2>img{
+        margin-top: 300px;
+        margin-left: 50px;
+        border-radius: 20px;
+        height: 70vh;
+    }
+    .take-con2>h4{
+        margin-top: 250px;
+        margin-left: 20px;
+        color: black;
+    }
+    .take-con2>h4>button{
+        border-radius: 30px;
+        padding: 10px;
+        background-color: #001822;
+        color: white;
+        border: 1px solid #001822;
+        width: 120px;
+    }
+    .Leading{
+        color: white;
+        margin: 50px;
+        width: 100%;
+        display: flex;
+    }
+    .Leading1{
+        width: 70%;
+    }
+    .Leading2{
+        width: 100%;
+        margin: 20px;
+    }
+    .Leading2-content2{
+        border: 2px solid white;
+        width: 270px;
+        padding: 20px;
+        margin-left: 0px;
+        border-radius: 20px;
+    }
+    .Leading3{
+        background-color: white;
+        width: 200px;
+        border-radius: 140px;
+        padding: 10px;
+        text-align: center;
+        margin-top: 40px;
+        margin-left: -40px;
+        height: 60vh;
+    }
+    .Leading3-2-1{
+        color: black;
+    }
+    .Leading3-2-1>h3{
+        border-bottom: 1px solid black;
+        width: 150px;
+        margin-left: 30px;
+    }
+    .Business{
+        padding: 60px;
+    }
+    .h-100>img{
+        position: absolute;
+    }
+    .green{
+        display: flex;
+    }
+    .green>p{
+        position: relative;
+        margin-left: 10px;
+        margin-top: 10px;
+        background-color: white;
+        color: black;
+        padding: 5px;
+        border-radius: 20px;
+    }
+    .card-title{
+        margin-top: 70px;
+    }
+    .Business>h2{
+        margin-left: 0px;
+        margin-top: 100px;
+        color: white;
+    }
+    .Business>button{
+        border: 1px solid white;
+        border-radius: 30px;
+        padding: 10px;
+        margin-bottom: 30px;
+        margin-left: 500px;
+    }
+    .foot{
+        color: white;
+        display: flex;
+        margin: 5%;
+        border-bottom: 1px solid #7B9EBB;
+    }
+    .foot-con1{
+        width: 50%;
+        margin: 2%;
+    }
+    .foot-con2{
+        width: 80%;
+    }
+    .foot-con3{
+        width: 320px;
+    }
+    .foot-con3>h2{
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 38px;
+    }
+    dd{
+        font-size:18px;
+        font-weight: 250;
+        line-height: 28px;
+    }
+    .Footer-Content{
+        color: white;
+        text-align: center;
+    }
+
+}

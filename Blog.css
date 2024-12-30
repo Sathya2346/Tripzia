@@ -1,0 +1,448 @@
+@media screen and (min-width:1020px){
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul>li{
+    list-style-type: none;
+}
+h2{
+    font-family: 'Melodrama';
+    font-weight: 500;
+    line-height: 66px;
+    font-size: 54px;
+}
+h3{
+    font-family: 'Melodrama';
+    font-weight: 400;
+    line-height: 38px;
+    font-size: 28px;
+}
+h4{
+    font-family: 'Melodrama';
+    font-weight: 600;
+    line-height: 30px;
+    font-size: 20px;
+}
+.navbar>a,.Dropdown>a{
+    font-family: 'Melodrama';
+    font-weight: 100;
+    font-style: normal;
+    font-size: 18px;
+}
+.navbar{
+    padding:50px 100px 10px 100px; 
+    display: flex;
+}
+.Dropdown>a{
+    position: relative;
+}
+.Dropdown-content{
+    display: none;
+    background-color: #FEFEFE;
+    position: absolute;
+    margin-left: -70px;
+    padding: 5px;
+    border-radius: 20px;
+    
+}
+.Dropdown:hover .Dropdown-content{
+    display: inline-block;
+    margin-top: 25px;
+    padding:20px;
+    width: 180px;
+}
+li>a{
+    color: #969782;
+}
+li>a:hover{
+    color:#06336C;
+}
+.nav-but{
+    background-color: #06336C;
+    color: white;
+    border: 1px solid #06336C;
+    border-radius: 25px;
+    height: 8vh;
+    width: 130px;
+}
+.Overall{
+    background-image: linear-gradient(to right, #BCD7E4 , #EDE4DB);
+    height: auto;
+}
+.Home-Content>h1{
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'melodrama';
+    font-size: 80px;
+    line-height: 126px;
+    font-weight: 600;
+    color: #1D2143;
+}
+.Home-Content>p{
+    text-align: center;
+}
+.Blog-Con1>img{
+    width: 350px;
+    border-radius: 10px;
+}
+.Blog-Con1>p>span{
+    background-color: #094279;
+    padding: 5px;
+    color: white;
+    border-radius: 25px;
+    margin-left: 5px;
+}
+.Blog-Con1>h4{
+    color: #094279;
+}
+.Blog-Con1>h4:hover{
+    color: black;
+    border-bottom: 1px solid black;
+}
+.Footer{
+    background-image: url('Images/footer-bg1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 20px;
+    margin-top: 40px;
+}
+.foot{
+    color: white;
+    display: flex;
+    padding: 5%;
+    border-bottom: 1px solid #7B9EBB;
+}
+.foot-con1{
+    width: 50%;
+    margin: 2%;
+}
+.foot-con2{
+    width: 50%;
+    margin: 2%;
+}
+.foot-con3{
+    width: 320px;
+}
+.foot-con3>h2{
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 38px;
+}
+dd{
+    font-size:18px;
+    font-weight: 250;
+    line-height: 28px;
+}
+.Footer-Content{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+}
+
+
+
+
+/*Mobile*/
+@media screen and (max-width:330px){
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul>li{
+    list-style-type: none;
+}
+h2{
+    font-family: 'Melodrama';
+    font-weight: 500;
+    line-height: 66px;
+    font-size: 54px;
+}
+h3{
+    font-family: 'Melodrama';
+    font-weight: 400;
+    line-height: 38px;
+    font-size: 28px;
+}
+h4{
+    font-family: 'Melodrama';
+    font-weight: 600;
+    line-height: 30px;
+    font-size: 20px;
+}
+.navbar>a,.Dropdown>a{
+    font-family: 'Melodrama';
+    font-weight: 100;
+    font-style: normal;
+    font-size: 18px;
+}
+.navbar{
+    padding:50px 100px 10px 100px; 
+    display: flex;
+    justify-content: center;
+}
+.Dropdown>a{
+    position: relative;
+}
+.Dropdown-content{
+    display: none;
+    background-color: #FEFEFE;
+    position: absolute;
+    margin-left: -70px;
+    padding: 5px;
+    border-radius: 20px;    
+}
+.Dropdown:hover .Dropdown-content{
+    display: inline-block;
+    margin-top: 25px;
+    padding:20px;
+    width: 180px;
+}
+li>a{
+    color: #969782;
+}
+li>a:hover{
+    color:#06336C;
+}
+.nav-but{
+    background-color: #06336C;
+    color: white;
+    border: 1px solid #06336C;
+    border-radius: 25px;
+    height: 8vh;
+    width: 130px;
+}
+.Overall{
+    background-image: linear-gradient(to right, #BCD7E4 , #EDE4DB);
+    height: auto;
+}
+.Home-Content>h1{
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'melodrama';
+    font-size: 80px;
+    line-height: 126px;
+    font-weight: 600;
+    color: #1D2143;
+}
+.Home-Content>p{
+    text-align: center;
+}
+.Blog-Con1>img{
+    width: 300px;
+    border-radius: 10px;
+}
+.Blog-Con1>p>span{
+    background-color: #094279;
+    padding: 5px;
+    color: white;
+    border-radius: 25px;
+    margin-left: 5px;
+}
+.Blog-Con1>h4{
+    color: #094279;
+}
+.Blog-Con1>h4:hover{
+    color: black;
+    border-bottom: 1px solid black;
+}
+.Footer{
+    background-image: url('Images/footer-bg1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+.foot{
+    color: white;
+    display: block;
+    margin: 2%;
+    border-bottom: 1px solid #7B9EBB;
+    width: 500px;
+}
+.foot-con1{
+    width: 250px;
+    margin: 2%;
+}
+.foot-con2{
+    width: 300px;
+}
+.foot-con3{
+    width: 320px;
+}
+.foot-con3>h2{
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 38px;
+    width: 320px;
+}
+dd{
+    font-size:18px;
+    font-weight: 250;
+    line-height: 28px;
+    width: 320px;
+}
+.Footer-Content{
+    color: white;
+    text-align: center;
+}
+}
+
+
+/*Tab*/
+@media screen and (min-width:750px){
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul>li{
+    list-style-type: none;
+}
+h2{
+    font-family: 'Melodrama';
+    font-weight: 500;
+    line-height: 66px;
+    font-size: 54px;
+}
+h3{
+    font-family: 'Melodrama';
+    font-weight: 400;
+    line-height: 38px;
+    font-size: 28px;
+}
+h4{
+    font-family: 'Melodrama';
+    font-weight: 600;
+    line-height: 30px;
+    font-size: 20px;
+}
+.navbar>a,.Dropdown>a{
+    font-family: 'Melodrama';
+    font-weight: 100;
+    font-style: normal;
+    font-size: 18px;
+}
+.navbar{
+    padding:50px 10px 10px 10px; 
+    display: flex;
+}
+.Dropdown>a{
+    position: relative;
+}
+.Dropdown-content{
+    display: none;
+    background-color: #FEFEFE;
+    position: absolute;
+    margin-left: -70px;
+    padding: 5px;
+    border-radius: 20px;        
+}
+.Dropdown:hover .Dropdown-content{
+    display: inline-block;
+    margin-top: 25px;
+    padding:20px;
+    width: 180px;
+}
+li>a{
+    color: #969782;
+}
+li>a:hover{
+    color:#06336C;
+}
+.nav-but{
+    background-color: #06336C;
+    color: white;
+    border: 1px solid #06336C;
+    border-radius: 25px;
+    height: 8vh;
+    width: 130px;
+}
+.Overall{
+    background-image: linear-gradient(to right, #BCD7E4 , #EDE4DB);
+    height: auto;
+}
+.Home-Content>h1{
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'melodrama';
+    font-size: 80px;
+    line-height: 126px;
+    font-weight: 600;
+    color: #1D2143;
+}
+.Home-Content>p{
+    text-align: center;
+}
+.Blog-Con1{
+    width: 230px;
+}
+.Blog-Con1>img{
+    width: 230px;
+    border-radius: 10px;
+}
+.Blog-Con1>p>span{
+    background-color: #094279;
+    padding: 5px;
+    color: white;
+    border-radius: 25px;
+    margin-left: 5px;
+}
+.Blog-Con1>h4{
+    color: #094279;
+}
+.Blog-Con1>h4:hover{
+    color: black;
+    border-bottom: 1px solid black;
+}
+.Footer{
+    background-image: url('Images/footer-bg1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+.foot{
+    color: white;
+    display: flex;
+    margin: 5%;
+    border-bottom: 1px solid #7B9EBB;
+}
+.foot-con1{
+    width: 50%;
+    margin: 2%;
+}
+.foot-con2{
+    width: 80%;
+}
+.foot-con3{
+    width: 320px;
+}
+.foot-con3>h2{
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 38px;
+}
+dd{
+    font-size:18px;
+    font-weight: 250;
+    line-height: 28px;
+}
+.Footer-Content{
+    color: white;
+    text-align: center;
+}
+}

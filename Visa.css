@@ -1,0 +1,527 @@
+@media screen and (min-width:1020px){
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul>li{
+    list-style-type: none;
+}
+h2{
+    font-family: 'Melodrama';
+    font-weight: 500;
+    line-height: 66px;
+    font-size: 54px;
+}
+h3{
+    font-family: 'Melodrama';
+    font-weight: 400;
+    line-height: 38px;
+    font-size: 28px;
+}
+h4{
+    font-family: 'Melodrama';
+    font-weight: 600;
+    line-height: 30px;
+    font-size: 20px;
+}
+.navbar>a,.Dropdown>a{
+    font-family: 'Melodrama';
+    font-weight: 100;
+    font-style: normal;
+    font-size: 18px;
+}
+.navbar{
+    padding:50px 100px 10px 100px; 
+    display: flex;
+}
+.Dropdown>a{
+    position: relative;
+}
+.Dropdown-content{
+    display: none;
+    background-color: #FEFEFE;
+    position: absolute;
+    margin-left: -70px;
+    padding: 5px;
+    border-radius: 20px;
+    
+}
+.Dropdown:hover .Dropdown-content{
+    display: inline-block;
+    margin-top: 25px;
+    padding:20px;
+    width: 180px;
+}
+li>a{
+    color: #969782;
+}
+li>a:hover{
+    color:#06336C;
+}
+.nav-but{
+    background-color: #06336C;
+    color: white;
+    border: 1px solid #06336C;
+    border-radius: 25px;
+    height: 8vh;
+    width: 130px;
+}
+.Overall{
+    background-image: url('Images/bg-home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding-bottom: 20px;
+}
+.Home-Content{
+    margin-top: 100px;
+    margin: 80px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid black;
+}
+.Home-img>img{
+    width: 98%;
+    border-radius: 20px;
+}
+.Home-img1>img{
+    border-radius: 10px;
+}
+.Competitive{
+    margin: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+h5>span{
+    margin-left: 230px;
+}
+.Competitive-img>img{
+    width:550px;
+    border-radius: 20px;
+}
+.Competitive-img{
+    margin: 40px;
+}
+.Advisary{
+    margin: 80px;
+    padding-bottom: 40px;
+    color: white;   
+}
+.Advisary-con>div{
+    background-color: white;
+    border-radius: 10px;
+}
+.Advisary-con>div>h4{
+    color: black;
+}
+.Advisary-con>div>p{
+    color: #424242;
+}
+.Advisary-con-content{
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+.Advisary-con-content>h4{
+    color: black;
+}
+.Advisary-con-content>p{
+    color: #424242;
+}
+.foot{
+    color: white;
+    display: flex;
+    padding: 5%;
+    border-bottom: 1px solid #7B9EBB;
+}
+.foot-con1{
+    width: 50%;
+    margin: 2%;
+}
+.foot-con2{
+    width: 50%;
+    margin: 2%;
+}
+.foot-con3{
+    width: 320px;
+}
+.foot-con3>h2{
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 38px;
+}
+dd{
+    font-size:18px;
+    font-weight: 250;
+    line-height: 28px;
+}
+.Footer-Content{
+    color: white;
+    text-align: center;
+}
+}
+/*For Mobile*/
+@media screen and (max-width:330px){
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul>li{
+    list-style-type: none;
+}
+h2{
+    font-family: 'Melodrama';
+    font-weight: 500;
+    line-height: 66px;
+    font-size: 54px;
+}
+h3{
+    font-family: 'Melodrama';
+    font-weight: 400;
+    line-height: 38px;
+    font-size: 28px;
+}
+h4{
+    font-family: 'Melodrama';
+    font-weight: 600;
+    line-height: 30px;
+    font-size: 20px;
+}
+.navbar>a,.Dropdown>a{
+    font-family: 'Melodrama';
+    font-weight: 100;
+    font-style: normal;
+    font-size: 18px;
+}
+.navbar{
+    padding:50px 100px 10px 100px; 
+    display: flex;
+    justify-content: center;
+}
+.Dropdown>a{
+    position: relative;
+}
+.Dropdown-content{
+    display: none;
+    background-color: #FEFEFE;
+    position: absolute;
+    margin-left: -70px;
+    padding: 5px;
+    border-radius: 20px;
+    
+}
+.Dropdown:hover .Dropdown-content{
+    display: inline-block;
+    margin-top: 25px;
+    padding:20px;
+    width: 180px;
+}
+li>a{
+    color: #969782;
+}
+li>a:hover{
+    color:#06336C;
+}
+.nav-but{
+    background-color: #06336C;
+    color: white;
+    border: 1px solid #06336C;
+    border-radius: 25px;
+    height: 8vh;
+    width: 130px;
+}
+.Overall{
+    background-image: url('Images/bg-home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding-bottom: 20px;
+}
+.Home-Content{
+    margin-top: 100px;
+    margin: 0px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid black;
+}
+.home-con2{
+    width: 300px;
+    margin: 2px;
+}
+.home-con1{
+    display: block;
+    text-align: center;
+    margin: 40px;
+}
+.Home-img>img{
+    width: 300px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.Home-img1>img{
+    border-radius: 10px;
+}
+.Competitive{
+    margin: 10px;
+    display: block;
+    width: 300px;
+}
+h5>span{
+    margin-left: 130px;
+}
+.Competitive-img>img{
+    width:300px;
+    border-radius: 20px;
+}
+.Competitive-img{
+    margin: 5px;
+    margin-top: 20px;
+}
+.Advisary{
+    margin: 10px;
+    padding-bottom: 40px;
+    color: white;   
+}
+.Advisary-con>div{
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    width: 300px;
+}
+.Advisary-con>div>h4{
+    color: black;
+}
+.Advisary-con>div>p{
+    color: #424242;
+}
+.Advisary-con-content{
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+.Advisary-con-content>h4{
+    color: black;
+}
+.Advisary-con-content>p{
+    color: #424242;
+}
+.foot{
+    color: black;
+    display: block;
+    margin: 2%;
+    border-bottom: 1px solid #7B9EBB;
+    width: 500px;
+}
+.foot-con1{
+    width: 250px;
+    margin: 2%;
+}
+.foot-con2{
+    width: 300px;
+}
+.foot-con3{
+    width: 320px;
+}
+.foot-con3>h2{
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 38px;
+    width: 320px;
+
+}
+dd{
+    font-size:18px;
+    font-weight: 250;
+    line-height: 28px;
+    width: 320px;
+}
+.Footer-Content{
+    color: white;
+    text-align: center;
+}
+}
+
+
+/*For Tab*/
+
+@media screen and (min-width:750px){
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul>li{
+    list-style-type: none;
+}
+h2{
+    font-family: 'Melodrama';
+    font-weight: 500;
+    line-height: 66px;
+    font-size: 54px;
+}
+h3{
+    font-family: 'Melodrama';
+    font-weight: 400;
+    line-height: 38px;
+    font-size: 28px;
+}
+h4{
+    font-family: 'Melodrama';
+    font-weight: 600;
+    line-height: 30px;
+    font-size: 20px;
+}
+.navbar>a,.Dropdown>a{
+    font-family: 'Melodrama';
+    font-weight: 100;
+    font-style: normal;
+    font-size: 18px;
+}
+.navbar{
+    padding:50px 10px 10px 10px; 
+    display: flex;
+}
+.Dropdown>a{
+    position: relative;
+}
+.Dropdown-content{
+    display: none;
+    background-color: #FEFEFE;
+    position: absolute;
+    margin-left: -70px;
+    padding: 5px;
+    border-radius: 20px;
+    
+}
+.Dropdown:hover .Dropdown-content{
+    display: inline-block;
+    margin-top: 25px;
+    padding:20px;
+    width: 180px;
+}
+li>a{
+    color: #969782;
+}
+li>a:hover{
+    color:#06336C;
+}
+.nav-but{
+    background-color: #06336C;
+    color: white;
+    border: 1px solid #06336C;
+    border-radius: 25px;
+    height: 8vh;
+    width: 130px;
+}
+.Overall{
+    background-image: url('Images/bg-home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding-bottom: 20px;
+}
+.Home-Content{
+    margin: 20px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid black;
+}
+.Home-img>img{
+    width: 98%;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.Home-img1>img{
+    border-radius: 10px;
+}
+.home-con1{
+    display:none;
+}
+.Competitive{
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+h5>span{
+    margin-left: 230px;
+}
+.Competitive-img>img{
+    width:370px;
+    border-radius: 20px;
+}
+.Competitive-img{
+    margin: 10px;
+}
+.Advisary{
+    margin: 20px;
+    padding-bottom: 40px;
+    color: white;   
+}
+.Advisary-con>div{
+    background-color: white;
+    border-radius: 10px;
+}
+.Advisary-con>div>h4{
+    color: black;
+}
+.Advisary-con>div>p{
+    color: #424242;
+}
+.Advisary-con-content{
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+.Advisary-con-content>h4{
+    color: black;
+}
+.Advisary-con-content>p{
+    color: #424242;
+}
+.Footer{
+    margin-top: -40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foot{
+    color: black;
+    display: flex;
+    margin: 5%;
+    border-bottom: 1px solid #7B9EBB;
+}
+.foot-con1{
+    width: 50%;
+    margin: 2%;
+}
+.foot-con2{
+    width: 80%;
+}
+.foot-con3{
+    width: 320px;
+}
+.foot-con3>h2{
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 38px;
+}
+dd{
+    font-size:18px;
+    font-weight: 250;
+    line-height: 28px;
+}
+.Footer-Content{
+    color: white;
+    text-align: center;
+}
+}
